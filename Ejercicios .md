@@ -2,7 +2,7 @@
 - Ejercicio 1
 Clasificador de números Escribe un programa que pida al usuario un número entero y determine si es positivo, negativo o cero.
 
-``` 
+```python
 Numero_entero = (int(input("Escribe un numero o sino eres parangaricutimicuaro: ")))
 if Numero_entero >0:
     print("El numero es positivo :D")
@@ -14,7 +14,7 @@ else:
 - Ejercicio 2
 Aprobado o reprobado Crea un programa que reciba la calificación de un estudiante (0 a 100) e indique si está aprobado (60 o más) o reprobado (menos de 60).
 
-```
+```python
 calificacion = int(input("Ingresa tu calificaciÃ³n de 0 a 100: "))
 if calificacion >=60 and calificacion <=100:
     print("Aprobado")
@@ -25,7 +25,7 @@ else:
 - Ejercicio 3
 Tabla de multiplicar Escribe un programa que muestre la tabla de multiplicar de un número ingresado por el usuario (del 1 al 10) usando un bucle for.
 
-```
+```python
 # Pedir al usuario que ingrese el número que quiere multiplicar
 Numero_multiplicar = int( input("Escribe un numero que te guistaria multiplicar: "))
 # Realizar la multiplicación con los números del 1 al 10
@@ -37,7 +37,7 @@ for Numero_multiplica in range (1, 11):
 - Ejercicio 4
 Contador regresivo Crea un programa que pida un número positivo al usuario y haga una cuenta regresiva desde ese número hasta 0 usando un bucle while.
 
-```
+```python
 import time # Se importa el tiempo para que sea mas lento el programa
 # Pedir al usuario un número positivo
 Numero_positivo = int (input("Pon un número positivo entero para generar una cuenta regresiva: "))
@@ -57,7 +57,7 @@ else:
 Adivina el número Crea un programa que genere un número aleatorio entre 1 y 10, y le pida al usuario que lo adivine. El programa debe indicar si el número ingresado es mayor, menor o correcto. El usuario tiene hasta 3 intentos.
 
 
-```
+```python
 import random
 
 # Generar el número aleatorio entre 1 y 10
